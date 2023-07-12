@@ -1,3 +1,5 @@
+## sorulara önce 1 sona 0 diceniz
+
 ## Sunucu Güncellemesi
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
