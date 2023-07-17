@@ -22,7 +22,7 @@ chmod +x -R ./testnet-auto-install-v3
 cd ./testnet-auto-install-v3
 ```
 ```
-./install-ubuntu-en.sh
+./install-ubuntu-1.0.sh
 ```
 
 /———OPSİDE RESETLEME———-\
