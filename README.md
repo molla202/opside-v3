@@ -84,3 +84,20 @@ opside-chain/show-beaconChain-log.sh
 opside-chain/show-validator-log.sh
 ```
 NOT: control panelinden yapanlar. önce stoplasın biraz beklesin sonra restart yapsın.  KODLARLA yapanlar durdurup biraz beklesin sonra baslatma kodlarını girsin. loglarıda kontrol ediniz bazen baslamayan oluyor adımları tekrarlarsınız
+
+
+## Port Değiştirme.
+Not: içlerinde portlar yazıyor. değiştirmeniz gerekeni değiştirip ctrl+x y enterla kaydedin sonra opsideye reset atın ve portları kontrol edin.
+port kontrol
+```
+sudo lsof -nP -iTCP -sTCP:LISTEN
+```
+```
+nano /root/testnet-auto-install-v3/opside-chain/geth/run.sh
+```
+```
+nano /root/testnet-auto-install-v3/opside-chain/prysm/beaconChain/run.sh
+```
+```
+nano /root/testnet-auto-install-v3/opside-chain/prysm/validator/run.sh
+```
