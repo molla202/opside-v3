@@ -1,3 +1,8 @@
+### senkronizayson kontrol
+![image](https://github.com/molla202/opside-v3/assets/91562185/c74f5a53-8731-42e0-9f77-a9d3992b0b91)
+
+
+
 ## sorulara önce 1 sona 0 diceniz
 
 ## Sunucu Güncellemesi
