@@ -97,6 +97,10 @@ port kontrol
 ```
 sudo lsof -nP -iTCP -sTCP:LISTEN
 ```
+Not: hemen altaki kod 8545 için
+```
+nano /root/testnet-auto-install-v2/opside-chain/geth/config/config.toml
+```
 ```
 nano /root/testnet-auto-install-v3/opside-chain/geth/run.sh
 ```
